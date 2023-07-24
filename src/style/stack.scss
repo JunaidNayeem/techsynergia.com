@@ -1,8 +1,8 @@
 .stack {
   width: 100%;
-  padding-bottom: 20rem;
+  padding-bottom: 10rem;
   position: relative;
-  padding-top: 11rem;
+  padding-top: 5rem;
   .sidebar_svg {
     position: absolute;
     top: 0%;
@@ -17,12 +17,12 @@
   }
   .stack_heading {
     width: 100%;
-    margin-bottom: 4.2rem;
+    margin-bottom: 3rem;
     h5 {
       color: #62ab78;
       text-align: center;
-      font-family: Inter;
-      font-size: 3.2rem;
+      font-family: "poppins",sans-serif;
+      font-size: 2rem;
       font-style: normal;
       font-weight: 600;
       line-height: 100%;
@@ -84,7 +84,7 @@
         rgba(255, 255, 255, 0.2) 0%,
         rgba(255, 255, 255, 0) 100%
       );
-      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
       box-shadow: 0px 4px 20px -1px rgba(0, 0, 0, 0.2);
       backdrop-filter: blur(0px);
       border: 1px solid #6d7c6b;
@@ -105,7 +105,7 @@
 @media screen and (max-width: 992px) {
   .stack {
     position: relative;
-    padding: 3rem 1rem 4rem 1rem;
+    padding: 3rem 0rem 4rem 0rem;
 
     .sidebar_svg {
       position: absolute;
@@ -114,7 +114,7 @@
       opacity: 0.7;
 
       img {
-        width: 98px;
+        width: 90px;
       }
     }
 
@@ -143,7 +143,7 @@
             rgba(255, 255, 255, 0.2) 0%,
             rgba(255, 255, 255, 0) 100%
           );
-          backdrop-filter: blur(10px);
+          -webkit-backdrop-filter: blur(10px);
           box-shadow: 0px 4px 20px -1px rgba(0, 0, 0, 0.2);
           backdrop-filter: blur(0px);
           display: flex;
@@ -187,7 +187,7 @@
           rgba(255, 255, 255, 0.2) 0%,
           rgba(255, 255, 255, 0) 100%
         );
-        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
         box-shadow: 0px 4px 20px -1px rgba(0, 0, 0, 0.2);
         backdrop-filter: blur(0px);
         border-radius: 10px;

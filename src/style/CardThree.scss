@@ -1,7 +1,7 @@
 .card_three {
-  width: 32%;
-  min-height: 194px;
-  padding: 1.2rem;
+  width: 40%;
+  min-height: 120px;
+  padding: 0.5rem;
   border-radius: 10px;
   background: linear-gradient(
     162deg,
@@ -9,11 +9,13 @@
     rgba(255, 255, 255, 0.08) 100%
   );
   border: 1px solid #586742;
-  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(0px);
   opacity: 0.8;
 
   .card_three_box {
     width: 100%;
+    height: 100%;
 
     .card_three_header {
       width: 100%;
@@ -52,7 +54,7 @@
 
         p {
           color: #2c6949;
-          font-size: 0.8rem;
+          font-size: 0.5rem;
         }
       }
     }
@@ -62,6 +64,7 @@
       height: 130px;
       display: flex;
       align-items: center;
+      margin-top: -25px;
       justify-content: center;
       opacity: 0;
       transition: opacity 3s ease-in-out;
@@ -79,7 +82,7 @@
 
     .card_three_content {
       position: absolute;
-      bottom: 9px;
+      bottom: -20px;
       color: yellow;
       z-index: 1;
 
@@ -98,7 +101,8 @@
 
 @media screen and (max-width: 992px) {
   .card_three {
-    width: 100%;
+    width: 90%;
+    margin: 1.3rem -1.8rem;
     height: unset;
 
     .card_three_box {
