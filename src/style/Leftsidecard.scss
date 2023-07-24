@@ -1,0 +1,102 @@
+.left_card {
+  width: 360px;
+  margin: 0 auto;
+  height: 146px;
+  border: 1px solid #586742;
+  box-shadow: 0px 4px 20px -1px rgba(0, 0, 0, 0.2);
+  background: url(../images//Rectangle.png),
+    lightgray 0% 0% / 56.40000104904175px 56.40000104904175px repeat;
+  background: linear-gradient(
+    162deg,
+    rgba(255, 255, 255, 0.16) 0%,
+    rgba(255, 255, 255, 0.08) 100%
+  );
+  backdrop-filter: blur(10px);
+  padding: 1.2rem;
+  position: absolute;
+  z-index: 1;
+  left: -140px; /* initial position outside the screen */
+  top: 54%;
+  opacity: 0.8;
+  border-radius: 10px;
+
+  .heading {
+    width: 30%;
+    display: flex;
+    align-items: center;
+
+    h6 {
+      color: #99baa9;
+      font-family: Inter;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: -0.8px;
+    }
+  }
+
+  .percentage {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    h6 {
+      color: #99baa9;
+      font-family: Inter;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      letter-spacing: -2px;
+      opacity: 0.8;
+    }
+  }
+
+  .text {
+    color: #99baa9;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.1;
+    // opacity: 0.8;
+  }
+
+  .img_card {
+    position: absolute;
+    z-index: 1;
+    top: 6%;
+    right: 12%;
+
+    img {
+      max-width: 188px;
+      min-height: 91px;
+    }
+  }
+  &.visible {
+    left: -9%; /* position after scrolling into the viewport */
+  }
+  &.initial-position {
+    left: -200px;
+  }
+
+  &.final-position {
+    left: 50px; /* Desired position on the right */
+  }
+
+  &.left_card_mobile {
+    width: 100%;
+    height: 146px;
+    margin: 1.3rem 0;
+    position: unset;
+    transform: unset !important;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .left_card {
+    opacity: 0.8;
+  }
+}

@@ -1,0 +1,238 @@
+.banner {
+  width: 100%;
+  padding: 0 2.5rem;
+
+  .banner_box {
+    padding-top: 12rem;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+
+    .banner_logo {
+      width: 209.96px;
+      min-height: 48px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .banner_heading {
+      width: 90%;
+      margin: 4rem auto 3.2rem auto;
+      padding: 0 1.5rem;
+
+      h5 {
+        color: #62ab78;
+        text-align: center;
+        font-family: Inter;
+        font-size: 7.2rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 100%;
+        letter-spacing: -3.6px;
+      }
+    }
+
+    .text {
+      display: block;
+      text-align: center;
+      margin-bottom: 2rem;
+
+      p {
+        font-weight: 400;
+        font-size: 1.6rem;
+        color: #fff;
+      }
+
+      .paragraph {
+        color: #62ab78;
+      }
+
+      a {
+        font-size: 16px;
+        text-decoration: underline;
+        color: #62ab78;
+      }
+    }
+
+    .input_box {
+      max-width: 452px;
+      height: 48px;
+      margin: 0 auto;
+      border-radius: 100px;
+      position: relative;
+
+      input {
+        color: #fff;
+        width: 100%;
+        height: 48px;
+        padding: 24px;
+        border: none;
+        background-color: #ffffff1a;
+        outline: none;
+        font-size: 1.6rem;
+        border-radius: 40px;
+        padding-right: 130px;
+        &::placeholder {
+          padding-top: 0.5rem;
+          font-size: 1.4rem;
+        }
+      }
+
+      .Banner_btn {
+        padding: 1.7rem 1.6rem;
+        font-size: 1.5rem;
+        border-radius: 26px;
+        border: none;
+        width: 12.225rem;
+        height: 46px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #b5d525;
+        position: absolute;
+        right: 1px;
+        top: 1px;
+      }
+      p {
+        font-size: 14px;
+        padding: 12px;
+      }
+    }
+  }
+
+  &.banner_mobile {
+    .banner_box {
+      padding-top: 5.4rem;
+      width: 100%;
+      padding-bottom: 0rem;
+
+      .input_box {
+        max-width: 100%;
+
+        input {
+          text-align: center;
+          padding-right: 0;
+        }
+      }
+
+      .banner_heading {
+        width: 100%;
+        padding: 0;
+
+        h5 {
+          font-size: 4.8rem;
+          line-height: 100%; /* 48px */
+          letter-spacing: -2.4px;
+        }
+      }
+
+      .input_box {
+        width: 100%;
+
+        .Banner_btn {
+          width: 100%;
+          position: unset;
+          margin: 1.3rem 0;
+          text-align: center;
+          font-family: Inter;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+        }
+      }
+    }
+  }
+}
+
+.drop-in {
+  animation: drop-in 0.8.7s ease 50ms backwards;
+}
+
+.drop-in-2 {
+  animation: drop-in 50ms ease 50ms backwards;
+}
+
+@keyframes drop-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0px);
+  }
+}
+
+.drop-up {
+  animation: drop-up 0.9s ease 300ms backwards;
+}
+.drop-up-2 {
+  animation: drop-up 200ms ease 500ms backwards;
+}
+@keyframes drop-up {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0px);
+  }
+}
+
+.beta-up {
+  animation: beta-up 0.9.5s ease 500ms backwards;
+}
+.beta-up-2 {
+  animation: beta-up 400ms ease 700ms backwards;
+}
+@keyframes beta-up {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0px);
+  }
+}
+
+.input-up {
+  animation: beta-up 0.9.7s ease 700ms backwards;
+}
+.input-up-2 {
+  animation: beta-up 600ms ease 900ms backwards;
+}
+@keyframes input-up {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0px);
+  }
+}
+
+.text-up {
+  animation: beta-up 0.9.9s ease 900ms backwards;
+}
+.text-up-2 {
+  animation: beta-up 800ms ease 1100ms backwards;
+}
+@keyframes text-up {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0px);
+  }
+}

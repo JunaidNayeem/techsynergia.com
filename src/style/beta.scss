@@ -1,0 +1,35 @@
+.beta {
+  width: 100%;
+  margin-bottom: 22.16rem;
+
+  marquee {
+    width: 100%;
+    white-space: nowrap;
+    color: #ffffff86;
+    text-align: center;
+    font-family: Inter;
+    font-size: 12rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: -6px;
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: 992px) {
+  .beta {
+    margin-bottom: 8.4rem;
+    margin-bottom: 10rem;
+    marquee {
+      font-size: 7.2rem;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .beta {
+    marquee {
+      font-size: 5.6rem;
+    }
+  }
+}

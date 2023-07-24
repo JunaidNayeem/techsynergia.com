@@ -1,0 +1,8 @@
+.test {
+   width: 360px;
+   height: 150px;
+   border: 1px solid yellow;
+   background: linear-gradient(162deg, rgba(255, 255, 255, 0.16) 0%, rgba(255, 255, 255, 0.08) 100%);
+   border: 1px solid gray;
+   backdrop-filter: blur(10px);
+}

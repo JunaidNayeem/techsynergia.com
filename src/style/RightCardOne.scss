@@ -1,0 +1,138 @@
+.right_card {
+  width: 275px;
+  height: 125px;
+  border: 1px solid #586742;
+  margin: 0 auto;
+  padding: 1.2rem !important;
+  border-radius: 10px;
+  background: linear-gradient(
+    162deg,
+    rgba(255, 255, 255, 0.16) 0%,
+    rgba(255, 255, 255, 0.08) 100%
+  );
+  backdrop-filter: blur(10px);
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0px 4px 20px -1px rgba(0, 0, 0, 0.2);
+  opacity: 0.7;
+
+  .card_box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+
+    .left_box {
+      width: 50%;
+
+      .heading {
+        display: flex;
+        align-items: center;
+        gap: 0.8rem;
+
+        h5 {
+          color: #fff;
+          font-family: Inter;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          letter-spacing: -0.8px;
+        }
+      }
+    }
+
+    .right_box {
+      width: 50%;
+
+      .wapper {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        flex-direction: column;
+      }
+
+      .select_box {
+        align-self: flex-end;
+        width: 70px;
+        height: 20px;
+        border-radius: 100px;
+        background: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        p {
+          color: #2c6949;
+          font-family: Inter;
+          font-size: 10px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          letter-spacing: -0.5px;
+        }
+      }
+
+      .card_img {
+        max-width: 90px;
+        min-height: 68px;
+        align-self: flex-end;
+        margin-top: 1.3rem;
+
+        img {
+          width: 100%;
+          object-fit: cover;
+          height: auto;
+          mix-blend-mode: exclusion;
+          opacity: 0.7;
+        }
+      }
+    }
+    .counter {
+      color: #99baa9;
+      font-family: Inter;
+      font-size: 40px;
+      font-weight: 600;
+      line-height: 48px;
+      letter-spacing: -0.05em;
+      text-align: left;
+    }
+  }
+
+  &.visible {
+    right: 0%; /* position after scrolling into the viewport */
+  }
+
+  &.right_card--desktop {
+    position: absolute;
+    z-index: 99;
+    top: 11.6%;
+    right: -20%; /* initial position outside the screen */
+  }
+
+  &.right_card--mobile {
+    margin-bottom: 1.3rem;
+    position: unset;
+    min-height: 146px;
+    width: 100%;
+    transform: unset !important;
+    margin: 3rem 0 1.3rem 0;
+
+    .card_box {
+      .left_box {
+        .text {
+          p {
+            margin-top: 1.8rem;
+            max-width: 125px;
+          }
+        }
+      }
+      .right_box {
+        .card_img {
+          margin-top: 4rem;
+        }
+      }
+    }
+  }
+}

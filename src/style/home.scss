@@ -1,0 +1,21 @@
+.home {
+  background-color: #092316;
+  overflow: hidden;
+  position: relative;
+
+  .home-card {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .home {
+    .home-card {
+      width: 100%;
+      padding: 0 2.5rem;
+      display: flex;
+      flex-direction: column;
+      margin-top: 5rem;
+    }
+  }
+}

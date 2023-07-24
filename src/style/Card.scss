@@ -1,0 +1,76 @@
+.card {
+  max-width: 1208px;
+  min-height: 684px;
+  margin: 4rem auto;
+  padding: 0.5rem;
+  border-radius: 10px;
+  background: url("../images/Group-402515325-_2_.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(10px);
+  position: relative;
+  mix-blend-mode: overlay;
+  opacity: 0.9;
+
+  .cards_box {
+    width: 100%;
+    margin: 0 auto;
+
+    .card_inside {
+      width: 78.5%;
+      margin-top: 13.3rem;
+      margin-left: 10rem;
+
+      .text_heading {
+        margin-top: 1.6rem;
+        margin-bottom: 1rem;
+        h4 {
+          color: #496959;
+          font-family: Inter;
+          font-size: 3.2rem;
+          font-style: normal;
+          font-weight: 400;
+          opacity: 0.5;
+          line-height: normal;
+          letter-spacing: -1.6px;
+          padding: 0 1.2rem;
+        }
+      }
+      .cards {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .card {
+    .cards_box {
+      .card_inside {
+        width: 940px;
+        // margin-left:1%;
+        margin: 0 auto;
+        margin-top: 12rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .card {
+    display: none;
+  }
+}
+
+.card-wrapper {
+  perspective: 1200px;
+}
+.card-new {
+  transform-style: preserve-3d;
+  transform: rotateX(20deg);
+}
