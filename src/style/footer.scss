@@ -1,15 +1,19 @@
 .footer {
   max-width: 1208px;
   margin: 0 auto;
-  padding: 0rem 1rem 12rem 1rem;
+  padding: 0rem 1rem 1rem 1rem;
   position: relative;
+  padding-top: 0rem;
 
   .footer_logo {
     width: 130px;
+    img{
+      margin-left: 2.6rem;
+    }
   }
 
   .footer_box {
-    margin-top: 7rem;
+    margin-top: 3rem;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -35,8 +39,8 @@
             a {
               text-decoration: none;
               color: #fff;
-              font-family: Inter;
-              font-size: 14px;
+              font-family: "poppins",sans-serif;
+              font-size: 16px;
               font-style: normal;
               font-weight: 400;
               line-height: normal;
@@ -55,7 +59,7 @@
 
       h1 {
         color: #62ab78;
-        font-family: Inter;
+        font-family: "poppins",sans-serif;
         font-size: 14px;
         font-style: normal;
         font-weight: 400;
