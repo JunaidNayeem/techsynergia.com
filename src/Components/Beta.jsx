@@ -33,7 +33,7 @@ const Beta = () => {
           onMouseEnter={handleMouseEnterMarquee}
           onMouseLeave={handleMouseLeaveMarquee}
         >
-          ✦ Join our beta ✦ Join our beta ✦
+          ✦ Contact Us ✦ Contact Us ✦
         </marquee>
         {showPopup && <Popup onClose={handleClosePopup} />}
       </div>

@@ -1,5 +1,5 @@
 import "../style/banner.scss";
-import { BrandLogo, CloseLogo } from "../images/svj";
+import { CloseLogo } from "../images/svj";
 import { useState, useEffect } from "react";
 
 const Banner = ({ close, heading, para, terms, onClose }) => {
@@ -112,7 +112,7 @@ const Banner = ({ close, heading, para, terms, onClose }) => {
       >
         <div className="banner_box drop-in">
           <div className="banner_logo drop-in">
-            <BrandLogo />
+            <img src="src/images/BrandLogo.png" alt="brandLogo" />
             {close ? (
               <div className="close" onClick={() => onClose()}>
                 Close <CloseLogo />
@@ -134,7 +134,7 @@ const Banner = ({ close, heading, para, terms, onClose }) => {
               value={email}
               onChange={handleInputChange}
             />
-            <button className="Banner_btn">Join Beta</button>
+            <button className="Banner_btn">Contact Us</button>
             {!isValid && (
               <p style={{ color: "red" }}>
                 Please enter a valid work email address.

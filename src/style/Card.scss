@@ -4,7 +4,8 @@
   margin: 4rem auto;
   padding: 0.5rem;
   border-radius: 10px;
-  background: url("../images/Group-402515325-_2_.webp");
+  background: url("../images/maincard.svg");
+  background-color: black;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -28,8 +29,8 @@
         margin-top: 1rem;
         margin-bottom: 0rem;
         h4 {
-          color: #496959;
-          font-family: "poppins",sans-serif;
+          color: white;
+          font-family: "poppins", sans-serif;
           font-size: 2rem;
           font-style: normal;
           font-weight: 400;
@@ -37,7 +38,6 @@
           line-height: normal;
           letter-spacing: -1.6px;
           padding: 0rem;
-
         }
       }
       .cards {

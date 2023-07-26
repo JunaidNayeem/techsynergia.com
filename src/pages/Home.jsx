@@ -19,10 +19,8 @@ const Home = () => {
       <div className="home">
         <Navbar />
         <Banner
-          heading={
-            "We are the world’s 2nd best web personalization SaaS for B2B businesses"
-          }
-          para={"Get private beta access"}
+          heading={"Reinvent your business digitally in new era of tech"}
+          para={"Get your personalised Web Application"}
           close={false}
         />
         <Card />

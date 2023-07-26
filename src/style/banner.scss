@@ -1,7 +1,7 @@
 .banner {
   width: 100%;
   padding: 0rem;
-  font-family: "poppins",sans-serif;
+  font-family: "poppins", sans-serif;
 
   .banner_box {
     padding-top: 6rem;
@@ -18,7 +18,8 @@
       flex-direction: row;
 
       img {
-        width: 100%;
+        width: 150%;
+        margin-block: -110px;
       }
     }
 
@@ -28,9 +29,9 @@
       padding: 0 1rem;
 
       h5 {
-        color: #62ab78;
+        color: #ffffff;
         text-align: center;
-        font-family: "poppins",sans-serif;
+        font-family: "poppins", sans-serif;
         font-size: 5rem;
         font-style: normal;
         margin: 0px;
@@ -79,7 +80,7 @@
         background-color: #ffffff1a;
         outline: none;
         font-size: 1rem;
-        
+
         border-radius: 40px;
         padding-right: 100px;
         &::placeholder {
@@ -98,11 +99,21 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: #b5d525;
+        -webkit-tap-highlight-color: transparent;
+        appearance: none;
+        outline: none;
+        border: none;
+        background: linear-gradient(105.23deg, #01a4ff 33.35%, #01ffc2 115.77%);
+        position: relative;
+        color: #000000;
         position: absolute;
         left: 330px;
         right: 1px;
         top: 1px;
+        &:hover {
+          background: white;
+          cursor: pointer;
+        }
       }
       p {
         font-size: 14px;
@@ -138,24 +149,24 @@
           font-weight: 500;
         }
       }
-      .text{
-        p{
+      .text {
+        p {
           margin-top: -1rem;
         }
       }
 
       .input_box {
         width: 330px;
-       
+
         padding: 0%;
         left: 0%;
 
         .Banner_btn {
           width: 330px;
           position: unset;
-          margin:-1rem 0rem 2rem 1.3rem;
+          margin: -1rem 0rem 2rem 1.3rem;
           text-align: center;
-          font-family: Inter;
+          font-family: system-ui;
           font-size: 20px;
           font-style: normal;
           font-weight: 500;
@@ -252,5 +263,3 @@
     transform: translate(0px);
   }
 }
-  
-

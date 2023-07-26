@@ -9,7 +9,7 @@
     rgba(255, 255, 255, 0.16) 0%,
     rgba(255, 255, 255, 0.08) 100%
   );
-  border: 1px solid #586742;
+  border: 1px solid #fff;
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(0px);
   opacity: 0.8;
@@ -34,7 +34,7 @@
 
       h6 {
         color: #99baa9;
-        font-family: Inter;
+        font-family: system-ui;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
@@ -52,7 +52,7 @@
 
         .digit {
           color: #99baa9;
-          font-family: Inter;
+          font-family: system-ui;
           font-size: 40px;
           font-style: normal;
           font-weight: 600;
@@ -72,7 +72,7 @@
 
       p {
         color: #99baa9;
-        font-family: Inter;
+        font-family: system-ui;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;

@@ -1,6 +1,5 @@
 import React from "react";
 import "../style/Navbar.scss";
-import { BrandLogo } from "../images/svj";
 import { useState, useEffect } from "react";
 
 const Navbar = () => {
@@ -23,7 +22,7 @@ const Navbar = () => {
     <>
       <div className={`active ${show && "hidden"}`}>
         <div className="navbar_logo">
-          <BrandLogo />
+          <img src="src/images/headerBrandLogo.png" alt="" />
         </div>
       </div>
     </>

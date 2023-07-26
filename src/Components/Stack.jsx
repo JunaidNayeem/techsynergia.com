@@ -3,9 +3,6 @@ import { gsap } from "gsap";
 import { Bounce } from "gsap/all";
 import "../style/stack.scss";
 import Sidebar from "../images/Group 402515323.svg";
-import reactangle from "../images/Rectangle 23.png";
-
-import rightimg from "../images/Rectangler 23.png";
 
 import {
   Layers,
@@ -14,7 +11,6 @@ import {
   Myproject,
   Gap,
   Light,
-  Freagmatic,
   GroupTwo,
   GroupThree,
   SalesForece,
@@ -79,7 +75,6 @@ const Stack = () => {
       </div>
       <div className="icon_box">
         <div className="icon_box_one">
-          <img src={reactangle} alt="icon" className="left" />
           <div className="icons">
             {/* <img src={clearbit} alt="icon" /> */}
             <Vector />
@@ -88,7 +83,7 @@ const Stack = () => {
             ref={isLargeScreen ? iconsRef : null}
             className="icons  target-icon"
           >
-            <Freagmatic />
+            <img src="src/images/Group.png" alt="" />
           </div>
           <div className="icons">
             <Layers />
@@ -103,11 +98,9 @@ const Stack = () => {
             {/* <img src={Salesforcecom_logo} alt="icon" /> */}
             <SalesForece />
           </div>
-          <img src={rightimg} alt="icon" className="right" />
         </div>
 
         <div className="icon_box_two">
-          <img src={reactangle} alt="icon" className="left" />
           <div className="icons">
             {/* <img src={myproject} alt="icon" /> */}
 
@@ -122,7 +115,6 @@ const Stack = () => {
           <div className="icons">
             <GroupThree />
           </div>
-          <img src={rightimg} alt="icon" className="right" />
         </div>
       </div>
 
@@ -130,7 +122,6 @@ const Stack = () => {
 
       <div className="icon_mobile_box">
         <div className="mobile_style">
-          <img src={reactangle} alt="icon" className="left" />
           <div className="icon_mobile">
             <Vector />
           </div>
@@ -138,7 +129,7 @@ const Stack = () => {
             ref={isLargeScreen ? null : iconsRef}
             className="icon_mobile target-icon"
           >
-            <Freagmatic />
+            <img src="src/images/Group.png" alt="" />
           </div>
           <div className="icon_mobile">
             <Layers />
@@ -152,11 +143,9 @@ const Stack = () => {
           <div className="icon_mobile">
             <SalesForece />
           </div>
-          <img src={rightimg} alt="icon" className="right" />
         </div>
       </div>
       <div className="icons_box_two">
-        <img src={reactangle} alt="icon" className="right" />
         <div className="icon_mobile_two">
           <Myproject />
         </div>
@@ -169,7 +158,6 @@ const Stack = () => {
         <div className="icon_mobile_two">
           <GroupThree />
         </div>
-        <img src={rightimg} alt="icon" className="right" />
       </div>
       <div className="sidebar_svg">
         <img src={Sidebar} alt="animation" />

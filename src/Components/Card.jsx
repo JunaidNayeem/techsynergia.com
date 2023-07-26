@@ -31,7 +31,7 @@ const Card = () => {
         <div className="cards_box">
           <div className="card_inside">
             <div className="text_heading">
-              <h4>Hello, Chris</h4>
+              <h4>Hello India, Time for new Tech Revolution </h4>
             </div>
             <div className="cards">
               <CardOne />

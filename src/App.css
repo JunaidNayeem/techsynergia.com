@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* For Firefox */
+/* Note: The scrollbar may still appear briefly while scrolling in Firefox */
+html {
+  scrollbar-width: none;
+  -ms-overflow-style: none; /* Hide scrollbar in IE 10+ */
+}

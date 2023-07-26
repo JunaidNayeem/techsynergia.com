@@ -12,7 +12,7 @@
     rgba(255, 255, 255, 0.16) 0%,
     rgba(255, 255, 255, 0.08) 100%
   );
-  border: 1px solid #586742;
+  border: 1px solid #fff;
   backdrop-filter: blur(10px);
   overflow: hidden;
 
@@ -51,10 +51,10 @@
 
         h6 {
           font-size: 1rem;
-          color: #99baa9;
+          color: #fff;
           font-weight: 400;
           line-height: normal;
-         
+
           letter-spacing: -0.8px;
         }
 
@@ -69,7 +69,7 @@
 
           p {
             font-size: 0.55rem;
-            color: #2c6949;
+            color: #000;
           }
         }
       }
@@ -83,7 +83,7 @@
       left: 14px;
 
       h5 {
-        color: #99baa9;
+        color: #fff;
         font-size: 40px;
         font-style: normal;
         font-weight: 600;

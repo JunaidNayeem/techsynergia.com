@@ -15,11 +15,6 @@ const Footer = () => {
             <div className="footer_menu">
               <ul>
                 <li>
-                  <a href="#" className="color">
-                    Company
-                  </a>
-                </li>
-                <li>
                   <a href="#">Contact</a>
                 </li>
                 <li>
@@ -32,24 +27,18 @@ const Footer = () => {
             </div>
           </div>
           <div className="footer_right">
-            <h1>© 2023 Fragmatic. All rights reserved. </h1>
+            <h1>© 2023 Tech Synergia. All rights reserved. </h1>
             <div className="footer_icon">
               <a
-                href="https://www.linkedin.com/company/fragmatic/"
+                href="https://www.linkedin.com/company/80495583/admin/feed/posts/"
                 target="_blank"
               >
                 <Linkedin />
               </a>
-              <a
-                href="https://twitter.com/i/flow/login?redirect_after_login=%2Ffragmatic_io"
-                target="_blank"
-              >
+              <a href="" target="_blank">
                 <Twitter />
               </a>
-              <a
-                href="https://instagram.com/fragmatic_io?igshid=MzRlODBiNWFlZA=="
-                target="_blank"
-              >
+              <a href="" target="_blank">
                 <Instagram />
               </a>
             </div>
