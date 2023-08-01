@@ -333,7 +333,19 @@ export const GroupThree = () => (
     />
   </svg>
 );
-
+export const MacosBtn = () => (
+  <svg
+    width="52"
+    height="22"
+    viewBox="0 0 52 22"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <circle cx="6" cy="11" r="5.5" fill="#F73636" stroke="#D62929" />
+    <circle cx="26" cy="11" r="5.5" fill="#F7C136" stroke="#CEA435" />
+    <circle cx="46" cy="11" r="5.5" fill="#68F736" stroke="#53CC28" />
+  </svg>
+);
 export const LineChart = (props) => {
   return (
     <svg

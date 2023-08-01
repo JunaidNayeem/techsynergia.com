@@ -1,13 +1,10 @@
 import React from "react";
 import "../style/Card.scss";
-import CardOne from "./CardOne";
-import CardTwo from "./CardTwo";
-import CardThree from "./CardThree";
 import LifeSideCard from "../Components/LeftSideCard";
 import RightCardOne from "../Components/RightCardOne";
-import RightTwoCard from "../Components/RightTwoCard";
 import { ScrollTrigger, gsap } from "gsap/all";
 import { useEffect } from "react";
+import TechStack from "./TechStack";
 const Card = () => {
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
@@ -31,17 +28,12 @@ const Card = () => {
         <div className="cards_box">
           <div className="card_inside">
             <div className="text_heading">
-              <h4>Hello India, Time for new Tech Revolution </h4>
+              <h4>Hello India, Time for new Tech Stack Revolution.</h4>
             </div>
-            <div className="cards">
-              <CardOne />
-              <CardTwo />
-              <CardThree />
-            </div>
+            <div className="cards">{/* <TechStack /> */}</div>
           </div>
           <LifeSideCard />
           <RightCardOne />
-          <RightTwoCard />
         </div>
       </div>
     </div>

@@ -1,21 +1,110 @@
-.beta {
-  width: 100%;
-  margin-bottom: 13rem;
+.panel {
+  width: 80%;
+  margin-inline: auto;
 
-  marquee {
-    width: 100%;
-    white-space: nowrap;
-    color: #ffffff86;
-    text-align: center;
-    font-family: "poppins", sans-serif;
-    font-size: 8rem;
+  h1 {
+    color: var(--basic-white, #fff);
+    font-size: 80px;
     font-style: normal;
-    font-weight: 600;
-    line-height: 100%;
-    letter-spacing: -6px;
-    cursor: pointer;
-    &:hover {
-      color: white;
+    font-weight: 700;
+    line-height: normal;
+    margin: auto;
+  }
+  h4 {
+    color: var(--basic-medium-gray, rgba(128, 128, 128, 0.5));
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.456px;
+    margin: 0;
+  }
+  .messageCenter {
+    margin-top: 70px;
+    display: flex;
+    height: 620px;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background-color: #80808057;
+    border-radius: 5px;
+    .messageHeader {
+      display: flex;
+      padding: 10px 458px 16px 16px;
+      align-items: flex-end;
+      gap: 68%;
+      flex-shrink: 0;
+      align-self: stretch;
+      border-bottom: 1px solid var(--dark-card-border, #383737);
+      h6 {
+        color: #fff;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin: 0;
+      }
+    }
+    .messageForm {
+      width: 90%;
+      margin-inline: auto;
+      padding: 24px;
+      form {
+        display: flex;
+        flex-direction: column;
+        ul {
+          width: 100%;
+          display: inline-flex;
+          align-items: baseline;
+          gap: 8px;
+          padding: 0;
+          hr {
+            width: 100%;
+          }
+          label {
+            width: 7%;
+            color: white;
+            overflow: hidden;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+          }
+          input {
+            color: white;
+            width: 93%;
+            overflow: hidden;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            border: none;
+            padding-inline: 10px;
+            padding-top: 5px;
+            padding-bottom: 20px;
+            background: transparent;
+            border-bottom: 1px solid #808080;
+            &:focus {
+              outline: none;
+              border: none;
+              border-bottom: 1px solid #808080;
+            }
+          }
+        }
+        > textarea {
+          color: white;
+          border-radius: 12px;
+          background: var(--dark-main-bg, #0d0d0d);
+          max-height: 180px;
+          max-width: 100%;
+          padding: 24px;
+          box-shadow: 0px 19px 30px 0px rgba(0, 0, 0, 0.2);
+        }
+        hr {
+          width: 100%;
+          margin-block: 20px;
+        }
+      }
     }
   }
 }

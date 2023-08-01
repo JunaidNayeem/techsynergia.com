@@ -48,7 +48,7 @@ const RightCardOne = () => {
         <div className="left_box">
           <div className="heading">
             <img src={massage} alt="icon" />
-            <h5>Leads</h5>
+            <h5>Business Leads</h5>
           </div>
           <span className="counter">+36%</span>
         </div>

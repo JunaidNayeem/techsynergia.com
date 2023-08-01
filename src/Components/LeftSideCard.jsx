@@ -46,14 +46,14 @@ const LifeSideCard = () => {
     >
       <div className="heading">
         <img src={chat} alt="icon" />
-        <h6>Engagement</h6>
+        <h6>Engagement On Websites</h6>
       </div>
       <div className="percentage">
-        <h6>+40%</h6>
+        <h6>+77%</h6>
         <img src={grow} alt="icon" />
       </div>
       <p className="text">
-        Fragmatic driven experiences are driving higher engagement
+        Synergia driving experiences are driving higher engagement
       </p>
       <div className="img_card">
         <img src={image} alt="img" />
