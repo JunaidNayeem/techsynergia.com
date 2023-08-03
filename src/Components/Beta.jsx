@@ -2,7 +2,6 @@ import gsap from "gsap";
 import React, { useState } from "react";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import "../style/beta.scss";
-import Popup from "./Popup";
 import { MacosBtn } from "../images/svj";
 
 gsap.registerPlugin(ScrollTrigger);

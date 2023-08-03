@@ -43,13 +43,6 @@ const Banner = ({ close, heading, para, terms, onClose }) => {
         <div className="banner_box drop-in">
           <div className="banner_logo drop-in">
             <img src="src/images/BrandLogo.png" alt="brandLogo" />
-            {close ? (
-              <div className="close" onClick={() => onClose()}>
-                Close <CloseLogo />
-              </div>
-            ) : (
-              ""
-            )}
           </div>
           <div className="banner_heading ">
             <h5 className="drop-up">{heading}</h5>
@@ -58,7 +51,7 @@ const Banner = ({ close, heading, para, terms, onClose }) => {
             <p>{para}</p>
           </span>
           <div className="input_box input-up">
-            <input
+            {/* <input
               type="email"
               placeholder="Email address"
               value={email}
@@ -71,7 +64,7 @@ const Banner = ({ close, heading, para, terms, onClose }) => {
               <p style={{ color: "red" }}>
                 Please enter a valid work email address.
               </p>
-            )}
+            )} */}
           </div>
         </div>
         {/* <span className="text ">

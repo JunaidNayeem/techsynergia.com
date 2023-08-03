@@ -1,3 +1,6 @@
+.box {
+  margin-top: 150px;
+}
 .panel {
   width: 80%;
   margin-inline: auto;
@@ -20,6 +23,7 @@
     margin: 0;
   }
   .messageCenter {
+    width: 100%;
     margin-top: 70px;
     display: flex;
     height: 620px;
